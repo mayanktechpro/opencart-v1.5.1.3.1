@@ -1,0 +1,23 @@
+2014-03-31 13:37:46 - PHP Notice:  Undefined variable: action_ro in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 34
+2014-03-31 13:37:46 - PHP Notice:  Undefined variable: entry_description_romanian in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 37
+2014-03-31 13:37:46 - PHP Notice:  Undefined variable: entry_restore_ro in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 40
+2014-03-31 13:38:46 - PHP Notice:  Undefined variable: action_ro in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 34
+2014-03-31 13:38:46 - PHP Notice:  Undefined variable: entry_restore_ro in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 40
+2014-03-31 13:43:30 - PHP Notice:  Undefined variable: error_warning_romanian in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 39
+2014-03-31 13:43:30 - PHP Notice:  Undefined variable: success_romanian in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 42
+2014-03-31 13:43:30 - PHP Notice:  Undefined variable: heading_title_romanian in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 47
+2014-03-31 13:43:30 - PHP Notice:  Undefined variable: action_romanian in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 51
+2014-03-31 13:43:30 - PHP Notice:  Undefined variable: entry_restore_ro in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 57
+2014-03-31 13:46:24 - PHP Notice:  Undefined variable: success_romanian in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 39
+2014-03-31 13:46:24 - PHP Notice:  Undefined variable: heading_title_romanian in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 44
+2014-03-31 13:46:24 - PHP Notice:  Undefined variable: action_romanian in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 48
+2014-03-31 13:46:24 - PHP Notice:  Undefined variable: entry_restore_ro in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 54
+2014-03-31 14:21:04 - PHP Notice:  Undefined variable: exportmro in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 17
+2014-03-31 14:21:04 - PHP Notice:  Undefined variable: entry_restore_ro in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 54
+2014-03-31 14:21:46 - PHP Notice:  Undefined variable: exportmro in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 17
+2014-03-31 14:21:46 - PHP Notice:  Undefined variable: entry_restore_ro in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 54
+2014-03-31 14:22:04 - PHP Notice:  Undefined variable: exportmro in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\admin\view\template\tool\exportm.tpl on line 17
+2014-03-31 15:34:53 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `oc_product` p LEFT JOIN `oc_product_description` pd ON p.product_id=pd.pro' at line 1<br />Error No: 1064<br />SELECT   p.product_id,  pd.name,  pd.language_id,  pd.description,   pd.meta_description,   pd.meta_keyword, FROM `oc_product` p LEFT JOIN `oc_product_description` pd ON p.product_id=pd.product_id   AND pd.language_id=2 GROUP BY p.product_id ORDER BY p.product_id;  in C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1\system\database\mysql.php on line 49
+2014-03-31 16:14:29 - Export/Import: Invalid number of worksheets, 7 worksheets expected
+2014-03-31 18:43:48 - Export/Import: Invalid number of worksheets, 1 worksheet expected
+2014-03-31 18:45:21 - Export/Import: Invalid number of worksheets, 7 worksheets expected

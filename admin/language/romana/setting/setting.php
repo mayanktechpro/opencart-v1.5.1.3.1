@@ -1,0 +1,107 @@
+<?php
+// Heading
+$_['heading_title']             = 'Setări';
+
+// Text
+$_['text_success']              = 'Succes: Ați modificat setările!';
+$_['text_image_manager']        = 'Managerul de Imagine';
+$_['text_mail']                 = 'Mail';
+$_['text_smtp']                 = 'SMTP';
+
+// Entry
+$_['entry_name']                = 'Numele Magazinului:';
+$_['entry_owner']               = 'Proprietarul Magazinului:';
+$_['entry_address']             = 'Adresă:';
+$_['entry_email']               = 'E-Mail:';
+$_['entry_telephone']           = 'Telefon:';
+$_['entry_fax']                 = 'Fax:';
+$_['entry_title']               = 'Titlu:';
+$_['entry_meta_description']    = 'Descriere Meta Tag:';
+$_['entry_layout']              = 'Aspect implicit:';
+$_['entry_template']            = 'Șablon:';
+$_['entry_country']             = 'Țara:';
+$_['entry_zone']                = 'Regiune / Stat:';
+$_['entry_language']            = 'Limba:';
+$_['entry_admin_language']      = 'Limba Administrattorului:';
+$_['entry_currency']            = 'Moneda:<br /><span class="help">Schimbați moneda implicită. Stergeți memoria Cache a brwserului pentru a vedea modificarea si resetați cookie-urile existente.</span>';
+$_['entry_currency_auto']       = 'Updatare automată a Monedei:<br /><span class="help">Setaza magazinul in așa fel încat sa updateze in mod automat monedele, zilnic.</span>';
+$_['entry_length_class']        = 'Clasa Lungimii:';
+$_['entry_weight_class']        = 'Clasa Greutății:';
+$_['entry_catalog_limit'] 	    = 'Obiecte Implicite Per Pagină (Catalog):<br /><span class="help">Determină cîte obiecte din catalog sunt arătate pe pagină (produse, categorii, etc)</span>';
+$_['entry_admin_limit']   	    = 'Obiecte Implicite Per Pagină (Admin):<br /><span class="help">Determină cîte obiecte admin sunt arătate pe pagină (comenzi, clienți, etc)</span>';
+$_['entry_tax']                 = 'Arată Prețurile cu Taxa:';
+$_['entry_invoice']             = 'Numărul Facturii de Start.:<br /><span class="help"> Setează numărul de pornire al facturii, care va incepe de la.</span>';
+$_['entry_invoice_prefix']      = 'Prefixul Facturii:<br /><span class="help"> Seteaza prefxul Facturii (e.g. INV-2011-00). ID-ul Facturii va incepe cu 1 pentru fiecare prefix unic</span>';
+$_['entry_customer_group']      = 'Grupul Consumatorului:<br /><span class="help">Grupul Consumatorului Implicit.</span>';
+$_['entry_customer_price']      = 'Afișează Prețurile La Autentificare:<br /><span class="help">Afișează prețurile doar atunci când un client este autentificat.</span>';
+$_['entry_customer_approval']   = 'Aprobă Clienți Noi:<br /><span class="help">Don\Nu permite clienților noi să se logheze până când contul lor nu este aprobat.</span>';
+$_['entry_guest_checkout']      = 'Checkout-ul Oaspeților:<br /><span class="help">Permite Clienților să facă checkoutul fără să creeze un cont. Această opțiune nu va fi disponibilă dacă în coșul de cumpărături sunt produse care se pot descărca.</span>';
+$_['entry_account']             = 'Termenii Contului:<br /><span class="help">Forțează oamenii să fie de acord cu termenii înainte ca un cont să fie creat.</span>';
+$_['entry_checkout']            = 'Termenii Checkout-ului:<br /><span class="help">Forțează oamenii să fie de acord cu termenii înainte să poată cumpăra produse.</span>';
+$_['entry_affiliate']           = 'Termenii Afilierii:<br /><span class="help">Forțează oamenii să fie de acord cu termenii înainte ca un cont de afiliat să fie creat.</span>';
+$_['entry_commission']          = 'Comisionul Afilierii (%):<br /><span class="help">Procentul implicit al comisionului de afiliere.</span>';
+$_['entry_stock_display']       = 'Afișează Stocul:<br /><span class="help">Afișează cantitatea stocului pe pagina produsului.</span>';
+$_['entry_stock_warning']       = 'Afișează Atenționarea Stoc Terminat:<br /><span class="help">Afișează mesajul stoc terminat pe pagina coșului de cumpărături dacă un produs nu se mai află în stoc dar checkoutul stocului este da. (Warning always shows if stock checkout is no)</span>';
+$_['entry_stock_checkout']      = 'Checkoutul Stocului:<br /><span class="help">Permite Clienților să facă checkoutul chiar dacă produsele pe care le comandă nu sunt în stoc.</span>';
+$_['entry_stock_status']        = 'Statusul Stoc Terminat:<br /><span class="help">Setează statusul implicit pentru stoc terminat selectat în editarea produsului.</span>';
+$_['entry_order_status']        = 'Statusul Comenzii:<br /><span class="help">Setează statusul comenzii implicit când o comandă este procesată.</span>';
+$_['entry_complete_status']     = 'Stasul Comenzii Finalizate:<br /><span class="help">Setează statusul comenziilor  pe care clienții trebuie să le atingă înainte ca ei să aibă acces la produsele care se pot descărca și la voucherele cadou.</span>';
+$_['entry_return_status']       = 'Statusul Returnării:<br /><span class="help">Setează statusul implicit al returnărilor când cererile de retragere sunt inregistrate.</span>';
+$_['entry_review']       	    = 'Permite Păreri:<br /><span class="help">Activează/Dezactivează Păreri noi și afișează părerile existente</span>';
+$_['entry_download']            = 'Permite Descărcări:';
+$_['entry_upload_allowed']      = 'Permite încărcări de Extensii de Fisiere<br /><span class="help">Adaugă care extensii de fișiere sunt permise să fie încărcate. Folosește virgula să separi valorile.</span>';
+$_['entry_cart_weight']         = 'Afișează Greutatea pe pagina Coșului:<br /><span class="help">Afișează greutatea coșului pe pagina coșului</span>';
+$_['entry_logo']                = 'Logo-ul Magazinului:';
+$_['entry_icon']                = 'Iconiță:<br /><span class="help">Iconița trebuie să fie un fișier PNG de 16px x 16px.</span>';
+$_['entry_image_thumb']         = 'Mărimea Imaginii Produsului De Mărimea Degetului:';
+$_['entry_image_popup']         = 'Mărimea Imaginii Produsului de tip Pop-Up:';
+$_['entry_image_product']       = 'Mărimea Listei De Produse:';
+$_['entry_image_category']      = 'Mărimea Listei De Categorii:';
+$_['entry_image_manufacturer']  = 'Mărimea Listei De Producători:';
+$_['entry_image_additional']    = 'Mărimea Imaginilor Adiționale cu Produsul:';
+$_['entry_image_related']       = 'Mărimea Imaginilor Cu Produse Asemănătoare:';
+$_['entry_image_compare']       = 'Compară Mărimea Imaginilor:';
+$_['entry_image_wishlist']      = 'Mărimea Listei De Dorințe:';
+$_['entry_image_cart']          = 'Mărimea Imaginii Coșului:';
+$_['entry_mail_protocol']       = 'Protocolul Mailului:<span class="help">Alege doar \'Mail\' doar dacă serviciul tău de găzduire a dezactivat funcția php mail.';
+$_['entry_mail_parameter']      = 'Parametrii Mailului:<span class="help">Când folosești \'Mail\', parametrii adiționali de mail pot fi adăugați aici (ex. "-femail@storeaddress.com".';
+$_['entry_smtp_host']           = 'SMTP Gazdă:';
+$_['entry_smtp_username']       = 'SMTP Nume Utilizator:';
+$_['entry_smtp_password']       = 'SMTP Parola:';
+$_['entry_smtp_port']           = 'SMTP Port:';
+$_['entry_smtp_timeout']        = 'SMTP Timeout:';
+$_['entry_account_mail']        = 'Alerta pe Mail Pentru Conturi Noi:<br /><span class="help">Trimite un e-mail proprietarului magazinului când un cont nou a fost înregistrat.</span>';
+$_['entry_alert_mail']          = 'Alerta pe Mail Pentru O Comandă Nouă:<br /><span class="help">Trimite un e-mail proprietarului magazinului când o comandă nouă a fost creată.</span>';
+$_['entry_alert_emails']        = 'Alerte de E-mail Adiționale:<br /><span class="help">Orice alerte adiționale pe care vrei să le primești pe e-mail, separat de e-mailul principal al magazinului. (separate prin virgulă)</span>';
+$_['entry_use_ssl']             = 'Folosește SSL:<br /><span class="help">Ca să folosești SSL verifică cu serviciul tău de găzduire dacă ai un certificat SSL inregistrat și adaugă URL-ul SSL la catalog și la fișierele de configurare a adiministrației.</span>';
+$_['entry_seo_url']             = 'URL-ul SEO\'s:<br /><span class="help">Ca să folosești SEO URL\modulul apache în modul rescrie trebuie să fie instalat șpi trebuie să redenumești fișierul htaccess.txt în .htaccess.</span>';
+$_['entry_maintenance']         = 'Modul Mentenanță:<br /><span class="help">Previne clienții atunci când îți vizitează magazinul. În loc, ei vor vedea un mesaj de mentenanță. Dacă ești logat ca administrator, vei vedea magazinul în modul normal.</span>';
+$_['entry_encryption']          = 'Codul Encripției:<br /><span class="help">Vă rugăm furnizați un cod secret care o să fie folosit ca să encriptezi informațiile private când procesați comenzi.</span>';
+$_['entry_compression']         = 'Nivelul Compresiei La Ieșire :<br /><span class="help">GZIP pentru un transfer mai eficient la cererea clienților. Nivelul Compresiei trebuie să fie între 0 și 9</span>';
+$_['entry_error_display']       = 'Afișează Erorile:';
+$_['entry_error_log']           = 'Jurnalul De Erori:';
+$_['entry_error_filename']      = 'Numele Fisierului Jurnal De Erori:';
+$_['entry_google_analytics']    = 'Codul Google Analytics:<br /><span class="help">Autentificați-vă la <a onclick="window.open(\'http://www.google.com/analytics/\');"><u>Google Analytics</u></a> cont și dupa creați un profil al magazinului dvs. online. Copiați și lipiți codul analytics în acest câmp.</span>';
+
+// Error
+$_['error_warning']             = 'Atenție: Vă rugăm verificați formularul pentru erori!';
+$_['error_permission']          = 'Atenție: Nu aveți permisiunea să modificați setările!';
+$_['error_name']                = 'Numele Magazinului trebuie să fie între 3 și 32 de caractere!';
+$_['error_owner']               = 'Proprietarul Magazinului trebuie să fie între 3 și 64 de caractere!';
+$_['error_address']             = 'Adresa Magazinului trebuie să fie între 10 și 256 de caracterec!';
+$_['error_email']               = 'Adresa de e-mail pare să nu fie validă!';
+$_['error_telephone']           = 'Telefonul trebuie să fie între 3 și 32 de caractere!';
+$_['error_title']               = 'Titlul trebuie să fie cuprins între 3 și 32 de caractere!';
+$_['error_limit']       	    = 'Limita este necesară!';
+$_['error_image_thumb']         = 'Mărimea Imaginii Produsului De Mărimea Degetului este necesară!';
+$_['error_image_popup']         = 'Mărimea Imaginii Produsului de tip Pop-Up este necesară!';
+$_['error_image_product']       = 'Mărimea Listei De Produse este necesară!';
+$_['error_image_category']      = 'Mărimea Listei De Categorii este necesară!';
+$_['error_image_manufacturer']  = 'Mărimea Listei De Producătorieste necesară!';
+$_['error_image_additional']    = 'Mărimea Imaginilor Adiționale cu Produsul este necesară!';
+$_['error_image_related']       = 'Mărimea Imaginilor Cu Produse Asemănătoare este necesară!';
+$_['error_image_compare']       = 'Compară Mărimea Imaginilor este necesară!';
+$_['error_image_wishlist']      = 'Mărimea Listei De Dorințe este necesară!';
+$_['error_image_cart']          = 'Mărimea Imaginii Coșului este necesară!';
+$_['error_error_filename']      = 'Numele Fișierului Jurnal De Erori este necesar!';
+?>

@@ -1,0 +1,31 @@
+<?php
+// HTTP
+define('HTTP_SERVER', 'http://127.0.0.1/opencart_v1.5.1.3.1/admin/');
+define('HTTP_CATALOG', 'http://127.0.0.1/opencart_v1.5.1.3.1/');
+define('HTTP_IMAGE', 'http://127.0.0.1/opencart_v1.5.1.3.1/image/');
+
+// HTTPS
+define('HTTPS_SERVER', 'http://127.0.0.1/opencart_v1.5.1.3.1/admin/');
+define('HTTPS_IMAGE', 'http://127.0.0.1/opencart_v1.5.1.3.1/image/');
+
+// DIR
+define('DIR_APPLICATION', 'C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1/admin/');
+define('DIR_SYSTEM', 'C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1/system/');
+define('DIR_DATABASE', 'C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1/system/database/');
+define('DIR_LANGUAGE', 'C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1/admin/language/');
+define('DIR_TEMPLATE', 'C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1/admin/view/template/');
+define('DIR_CONFIG', 'C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1/system/config/');
+define('DIR_IMAGE', 'C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1/image/');
+define('DIR_CACHE', 'C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1/system/cache/');
+define('DIR_DOWNLOAD', 'C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1/download/');
+define('DIR_LOGS', 'C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1/system/logs/');
+define('DIR_CATALOG', 'C:\Program Files (x86)\EasyPHP-12.0\www\opencart_v1.5.1.3.1/catalog/');
+
+// DB
+define('DB_DRIVER', 'mysql');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'oc15131');
+define('DB_PASSWORD', 'open');
+define('DB_DATABASE', 'oc15131');
+define('DB_PREFIX', 'oc_');
+?>
